@@ -1,0 +1,41 @@
+name: miaucaomigo
+description: Um app Flutter para cadastro e visualização de pets
+publish_to: 'none' # Remove quando for publicar
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^4.3.0
+  firebase_auth: ^6.1.3
+  cloud_firestore: ^6.1.1
+  firebase_storage: ^13.0.5
+
+  # Outras libs
+  image_picker: ^1.2.1
+  geolocator: ^14.0.2
+  share_plus: ^12.0.1
+  url_launcher: ^6.2.14
+
+  # 🟢 ADICIONE AQUI
+  cached_network_image: ^3.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fundo.jpeg
+    - assets/localizacao.png
+    - assets/logo.png
+    - assets/ong.png

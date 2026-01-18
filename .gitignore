@@ -1,0 +1,59 @@
+# -----------------------------------------------------------------------
+# Arquivo .gitignore para o projeto Miaucaomigo
+# -----------------------------------------------------------------------
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# -----------------------------------------------------------------------
+# SEGURANÇA: Firebase e Chaves de API (NÃO SUBIR PARA O GITHUB)
+# -----------------------------------------------------------------------
+# Android
+**/android/app/google-services.json
+
+# iOS
+**/ios/Runner/GoogleService-Info.plist
+
+# FlutterFire CLI (Configurações geradas)
+lib/firebase_options.dart
+
+# Outros arquivos de ambiente (caso use .env no futuro)
+.env
