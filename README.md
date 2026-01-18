@@ -1,16 +1,32 @@
-# miaucaomigo
+#  Miaucaomigo
 
-A new Flutter project.
+O **Miaucaomigo** é um aplicativo desenvolvido em Flutter focado na causa animal. Ele permite o cadastro de pets encontrados, visualização de animais em um mapa interativo e facilita a conexão entre protetores e novos lares.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+##  Funcionalidades
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **Autenticação**: Login e cadastro seguro de usuários via Firebase Auth.
+* **Cadastro de Pets**: Inclusão de fotos (Camera/Galeria) e detalhes do animal.
+* **Geolocalização**: Marcação precisa de onde o pet foi visto no mapa.
+* **Galeria Interativa**: Visualização de pets cadastrados com cache de imagens para performance.
+* **Integração com ONGs**: Seção dedicada para informações de parceiros.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Tecnologias Utilizadas
+
+* **Framework**: [Flutter](https://flutter.dev)
+* **Backend**: [Firebase](https://firebase.google.com) (Auth, Firestore, Storage)
+* **Mapas**: [Google Maps API](https://developers.google.com/maps)
+* **Gerenciamento de Estado**: Material Design 3
+
+##  Como rodar o projeto
+
+### Pré-requisitos
+* Flutter SDK instalado.
+* Um dispositivo Android ou iOS (ou simulador).
+
+### Passo a passo
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/seu-usuario/miaucaomigo.git](https://github.com/seu-usuario/miaucaomigo.git)
