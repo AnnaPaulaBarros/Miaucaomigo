@@ -17,16 +17,5 @@ O **Miaucaomigo** é um aplicativo desenvolvido em Flutter focado na causa anima
 * **Framework**: [Flutter](https://flutter.dev)
 * **Backend**: [Firebase](https://firebase.google.com) (Auth, Firestore, Storage)
 * **Mapas**: [Google Maps API](https://developers.google.com/maps)
-* **Gerenciamento de Estado**: Material Design 3
 
-##  Como rodar o projeto
 
-### Pré-requisitos
-* Flutter SDK instalado.
-* Um dispositivo Android ou iOS (ou simulador).
-
-### Passo a passo
-
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/seu-usuario/miaucaomigo.git](https://github.com/seu-usuario/miaucaomigo.git)
