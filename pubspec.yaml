@@ -1,6 +1,6 @@
 name: miaucaomigo
 description: Um app Flutter para cadastro e visualização de pets
-#publish_to: 'none' # Remove quando for publicar
+
 
 version: 1.0.0+8
 
@@ -23,7 +23,7 @@ dependencies:
   share_plus: ^12.0.1
   url_launcher: ^6.2.14
 
-  # 🟢 ADICIONE AQUI
+  
   cached_network_image: ^3.2.3
   google_mobile_ads: ^6.0.0
 
