@@ -1,4 +1,4 @@
-#  Miaucaomigo
+#  Miaucaomigo !
 
 O **Miaucaomigo** é um aplicativo desenvolvido em Flutter focado na causa animal. Ele permite o cadastro de pets encontrados, visualização de animais em um mapa interativo e facilita a conexão entre protetores e novos lares.
 
